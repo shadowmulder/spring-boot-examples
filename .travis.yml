@@ -1,5 +1,5 @@
 language: java
-sudo: false
+sudo: false # faster builds
 script: 
 - cd spring-boot-2-jdbc-with-h2
 - mvn clean verify
