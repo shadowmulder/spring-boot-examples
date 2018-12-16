@@ -1,1 +1,6 @@
 language: java
+jdk: oraclejdk8
+ 
+script:
+- cd spring-boot-2-jdbc-with-h2
+- ./mvnw clean install
